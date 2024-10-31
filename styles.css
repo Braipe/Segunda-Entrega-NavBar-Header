@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(29, 58, 103);
+  }
+  body > header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background: #1a2a6c;  /* fallback for old browsers */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: end;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+  }
+  body > header > a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body > header > a img {
+     object-fit: contain;
+  }
+  body > header > nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0rem 2rem;
+  }
+  
+  body > header > nav a {
+    text-decoration: none;
+    color: azure;
+  }
+  
+  /* Todavía no lo hicimos */
+  body > header > form {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding: 0.25rem 1rem;
+  }
+  body > header > form label {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
